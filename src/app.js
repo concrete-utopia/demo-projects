@@ -189,8 +189,9 @@ export var App = () => {
               <Description
                 description='Not as attentive as a real Butler, and only being able to hold drinks seems more like a luxury than work. Nonethelesss, we will keep him.'
                 style={{
-                  padding: '5px 20px 14px 20px',
+                  padding: '20px 27px 20px 20px',
                   borderRadius: '0px 0px 20px 0px',
+                  borderBottomRightRadius: '24px',
                 }}
               />
             </div>
@@ -261,7 +262,8 @@ export var App = () => {
                 style={{
                   background: 'var(--orange)',
                   borderRadius: '0px 0px 0px 20px',
-                  padding: '5px 20px 14px 20px',
+                  padding: '20px 20px 30px 20px',
+                  borderBottomLeftRadius: '31px',
                 }}
               />
             </div>

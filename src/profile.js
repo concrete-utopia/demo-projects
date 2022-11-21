@@ -79,7 +79,7 @@ export var Profile = (props) => {
             flexDirection: 'row-reverse',
             flexBasis: 0,
             justifyContent: 'space-between',
-            padding: '40px',
+            padding: '40px 52px 40px 40px',
           }}
         >
           <UserProPic
@@ -99,6 +99,7 @@ export var Profile = (props) => {
               display: 'flex',
               flexDirection: 'column',
               justifyContent: 'space-between',
+              paddingTop: '0px',
             }}
           >
             <div
@@ -191,6 +192,8 @@ export var Profile = (props) => {
               boxShadow:
                 '0px 2px 4px 5px rgb(0, 0, 0, 0.12)',
               padding: '10px 0px 10px 10px',
+              height: 100,
+              contain: 'layout',
             }}
           />
           <RiskTaker

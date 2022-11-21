@@ -10,6 +10,7 @@ import { ImageContainer } from '/src/cardcomponents/imagecontainer.js'
 import { Profile } from '/src/profile.js'
 import { AquaMan } from '/src/stickers.js'
 import { Wonderer, Cryophile } from '/src/stickers.js'
+import { BirbWatcher } from '/src/stickers.js'
 
 export var storyboard = (
   <Storyboard>
@@ -111,22 +112,11 @@ export var storyboard = (
     <Cryophile
       style={{
         position: 'absolute',
-        left: 542,
-        top: 866.5,
+        left: 492,
+        top: 736,
         width: 100,
         height: 100,
-        borderRadius: 10,
-      }}
-    />
-    <img
-      data-aspect-ratio-locked
-      src='./assets/jetpack.jpg'
-      style={{
-        position: 'absolute',
-        width: 654,
-        height: 487,
-        top: 202,
-        left: 863.5,
+        borderRadius: '50px',
       }}
     />
   </Storyboard>
