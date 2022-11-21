@@ -125,8 +125,8 @@ export var storyboard = (
         position: 'absolute',
         width: 654,
         height: 487,
-        top: 1400,
-        left: -197.5,
+        top: 202,
+        left: 863.5,
       }}
     />
   </Storyboard>
