@@ -102,8 +102,8 @@ export var storyboard = (
     <Wonderer
       style={{
         position: 'absolute',
-        left: 730,
-        top: 796,
+        left: 755,
+        top: 713,
         width: 100,
         height: 100,
       }}
@@ -116,6 +116,17 @@ export var storyboard = (
         width: 100,
         height: 100,
         borderRadius: 10,
+      }}
+    />
+    <img
+      data-aspect-ratio-locked
+      src='./assets/northernlights.jpg'
+      style={{
+        position: 'absolute',
+        width: 493,
+        height: 393,
+        top: 224,
+        left: 616.5,
       }}
     />
   </Storyboard>
