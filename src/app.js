@@ -32,7 +32,7 @@ export var App = () => {
           flexDirection: 'column',
           alignItems: 'center',
           padding: '44px 0px 25px',
-          gap: '26px',
+          gap: '50px',
           boxShadow: '0px 2px 33px #674168',
           left: 0,
         }}
@@ -77,7 +77,7 @@ export var App = () => {
             display: 'flex',
             flexDirection: 'row',
             alignItems: 'flex-start',
-            padding: '0px 0px 0px 40px',
+            padding: '0px 0px 0px 73px',
             gap: 25,
             width: '100%',
             height: '55px',
@@ -103,7 +103,15 @@ export var App = () => {
             name='rare'
             style={{
               padding: '13px 27px',
-              borderRadius: '50px',
+              borderRadius: '13px',
+              width: 101,
+              height: 45,
+              borderBottomRightRadius: 6,
+              borderBottomLeftRadius: 6,
+              borderTopLeftRadius: '11px',
+              backgroundColor: 'rgb(213, 62, 255, 1)',
+              border: '4px solid rgb(213, 60, 255, 1)',
+              contain: 'layout',
             }}
           />
           <CategoryItem

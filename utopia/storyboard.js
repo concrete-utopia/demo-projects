@@ -10,6 +10,12 @@ import { ImageContainer } from '/src/cardcomponents/imagecontainer.js'
 import { Profile } from '/src/profile.js'
 import { AquaMan } from '/src/stickers.js'
 import { Wonderer, Cryophile } from '/src/stickers.js'
+import { Rectangle } from 'utopia-api'
+import {
+  BirbWatcher,
+  Tropicologist,
+} from '/src/stickers.js'
+import { CategoryItem } from '/src/category-item.js'
 
 export var storyboard = (
   <Storyboard>

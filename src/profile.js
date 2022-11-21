@@ -12,6 +12,7 @@ import {
   DecorativeLines,
   Checkerboard,
 } from './cardcomponents/decorations.js'
+import { Rectangle } from 'utopia-api'
 
 export var Profile = (props) => {
   return (
@@ -82,17 +83,13 @@ export var Profile = (props) => {
             padding: '40px',
           }}
         >
-          <UserProPic
+          <Tropicologist
             style={{
-              borderRadius: '50%',
-              border: '6px solid var(--purple)',
-              overflow: 'hidden',
-              background: 'var(--orange)',
-              position: 'relative',
-              flexBasis: 160,
-              height: 160,
+              width: 140,
+              height: 140,
+              contain: 'layout',
+              borderRadius: 32,
             }}
-            color='var(--purple)'
           />
           <div
             style={{
@@ -178,11 +175,11 @@ export var Profile = (props) => {
           color1='var(--yellow)'
           color2='var(--orange)'
         >
-          <Cryophile
+          <AquaMan
             style={{
+              borderRadius: '50%',
               boxShadow:
                 '0px 2px 4px 5px rgb(0, 0, 0, 0.12)',
-              borderRadius: '50%',
             }}
           />
           <BirbWatcher
@@ -191,6 +188,16 @@ export var Profile = (props) => {
               boxShadow:
                 '0px 2px 4px 5px rgb(0, 0, 0, 0.12)',
               padding: '10px 0px 10px 10px',
+              height: 100,
+              contain: 'layout',
+              borderRadius: 24,
+            }}
+          />
+          <Cryophile
+            style={{
+              boxShadow:
+                '0px 2px 4px 5px rgb(0, 0, 0, 0.12)',
+              borderRadius: '50%',
             }}
           />
           <RiskTaker
@@ -203,17 +210,19 @@ export var Profile = (props) => {
           />
           <Mixologist
             style={{
+              backgroundColor: '#FF69B4AB',
+              width: 118,
+              height: 104,
+              contain: 'layout',
+              borderRadius: 28,
+            }}
+          />
+          <Mixologist
+            style={{
               transform: 'rotate(5deg)',
               boxShadow:
                 '0px 2px 4px 5px rgb(0, 0, 0, 0.12)',
               padding: '5px 0',
-            }}
-          />
-          <AquaMan
-            style={{
-              borderRadius: '50%',
-              boxShadow:
-                '0px 2px 4px 5px rgb(0, 0, 0, 0.12)',
             }}
           />
           <Wonderer
