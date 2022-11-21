@@ -118,5 +118,16 @@ export var storyboard = (
         borderRadius: 10,
       }}
     />
+    <img
+      data-aspect-ratio-locked
+      src='./assets/jetpack.jpg'
+      style={{
+        position: 'absolute',
+        width: 654,
+        height: 487,
+        top: 1400,
+        left: -197.5,
+      }}
+    />
   </Storyboard>
 )
