@@ -82,18 +82,6 @@ export var Profile = (props) => {
             padding: '40px',
           }}
         >
-          <UserProPic
-            style={{
-              borderRadius: '50%',
-              border: '6px solid var(--purple)',
-              overflow: 'hidden',
-              background: 'var(--orange)',
-              position: 'relative',
-              flexBasis: 160,
-              height: 160,
-            }}
-            color='var(--purple)'
-          />
           <div
             style={{
               display: 'flex',
@@ -142,8 +130,8 @@ export var Profile = (props) => {
                   justifyContent: 'space-between',
                 }}
               >
-                <div>Living Since: </div>
-                <div>1999</div>
+                <div>Life Level: </div>
+                <div>Advanced</div>
               </div>
               <div
                 style={{
@@ -159,11 +147,23 @@ export var Profile = (props) => {
                   justifyContent: 'space-between',
                 }}
               >
-                <div>Life Level: </div>
-                <div>Advanced</div>
+                <div>Living Since: </div>
+                <div>1999</div>
               </div>
             </div>
           </div>
+          <UserProPic
+            style={{
+              borderRadius: '50%',
+              border: '6px solid var(--purple)',
+              overflow: 'hidden',
+              background: 'var(--orange)',
+              position: 'relative',
+              flexBasis: 160,
+              height: 160,
+            }}
+            color='var(--purple)'
+          />
         </div>
         <DecorativeLines />
         <Checkerboard
@@ -183,14 +183,6 @@ export var Profile = (props) => {
               boxShadow:
                 '0px 2px 4px 5px rgb(0, 0, 0, 0.12)',
               borderRadius: '50%',
-            }}
-          />
-          <BirbWatcher
-            style={{
-              width: 121,
-              boxShadow:
-                '0px 2px 4px 5px rgb(0, 0, 0, 0.12)',
-              padding: '10px 0px 10px 10px',
             }}
           />
           <RiskTaker
@@ -214,6 +206,14 @@ export var Profile = (props) => {
               borderRadius: '50%',
               boxShadow:
                 '0px 2px 4px 5px rgb(0, 0, 0, 0.12)',
+            }}
+          />
+          <BirbWatcher
+            style={{
+              width: 121,
+              boxShadow:
+                '0px 2px 4px 5px rgb(0, 0, 0, 0.12)',
+              padding: '10px 0px 10px 10px',
             }}
           />
           <Wonderer

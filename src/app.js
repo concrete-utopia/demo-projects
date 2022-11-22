@@ -53,7 +53,9 @@ export var App = () => {
         >
           Things I want to do
         </div>
-        <div style={{ width: '130%' }}>
+        <div
+          style={{ width: '129.97601918465%', height: 90 }}
+        >
           <div
             style={{
               color: 'var(--orange)',
@@ -79,10 +81,10 @@ export var App = () => {
             display: 'flex',
             flexDirection: 'row',
             alignItems: 'flex-start',
-            padding: '10px 0px 0px 19px',
-            gap: 32,
+            padding: '10px 0px 9px 19px',
+            gap: 54,
             width: '100%',
-            height: '69.5px',
+            height: '79.5px',
             overflowX: 'scroll',
           }}
         >
@@ -90,6 +92,23 @@ export var App = () => {
             style={{
               borderRadizus: '50px',
               padding: '0px 18px',
+            }}
+          />
+          <CategoryItem
+            selected={false}
+            name='trending'
+            style={{
+              padding: '13px 27px',
+              borderRadius: '8px',
+              width: 139,
+              height: 45,
+              backgroundColor: 'rgb(217, 77, 255, 1)',
+              border: '4px solid rgb(214, 68, 255, 1)',
+              contain: 'layout',
+              borderTopLeftRadius: '23px',
+              borderTopRightRadius: '22px',
+              borderBottomLeftRadius: '0px',
+              borderBottomRightRadius: '0px',
             }}
           />
           <CategoryItem
@@ -102,14 +121,6 @@ export var App = () => {
           />
           <CategoryItem
             selected={false}
-            name='nearby'
-            style={{
-              padding: '13px 27px',
-              borderRadius: '50px',
-            }}
-          />
-          <CategoryItem
-            selected={false}
             name='aeronautic'
             style={{
               padding: '13px 27px',
@@ -118,23 +129,18 @@ export var App = () => {
           />
           <CategoryItem
             selected={false}
-            name='odd'
+            name='nearby'
             style={{
-              padding: '13px 27px',
-              borderRadius: '50px',
+              padding: '13px 27px 13px 22px',
+              borderRadius: '10px',
             }}
           />
           <CategoryItem
             selected={false}
-            name='trending'
+            name='odd'
             style={{
               padding: '13px 27px',
-              borderRadius: '10px',
-              width: 139,
-              height: 45,
-              backgroundColor: 'rgb(217, 77, 255, 1)',
-              border: '4px solid rgb(214, 68, 255, 1)',
-              contain: 'layout',
+              borderRadius: '50px',
             }}
           />
           <CategoryItem
@@ -151,8 +157,8 @@ export var App = () => {
         name='06 05 2022'
         style={{
           position: 'absolute',
-          top: 312,
-          left: 564,
+          top: 326,
+          left: 573,
           zIndex: 1000,
         }}
         color='var(--yellow)'
