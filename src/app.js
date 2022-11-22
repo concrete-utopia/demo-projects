@@ -110,7 +110,7 @@ export var App = () => {
           />
           <CategoryItem
             selected={false}
-            name='aquatic'
+            name='aeronautic'
             style={{
               padding: '13px 27px',
               borderRadius: '50px',
