@@ -102,7 +102,7 @@ export var App = () => {
           />
           <CategoryItem
             selected={false}
-            name='nearby'
+            name='aquatic'
             style={{
               padding: '13px 27px',
               borderRadius: '50px',
@@ -110,10 +110,10 @@ export var App = () => {
           />
           <CategoryItem
             selected={false}
-            name='aeronautic'
+            name='nearby'
             style={{
               padding: '13px 27px',
-              borderRadius: '50px',
+              borderRadius: '10px',
             }}
           />
           <CategoryItem
