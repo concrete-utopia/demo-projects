@@ -51,7 +51,7 @@ export var App = () => {
               '0px 1px 1px #646464, 0px 4px 1px rgba(0, 0, 0, 0.25)',
           }}
         >
-          Things I want to do
+          Things I really want to do
         </div>
         <div style={{ width: '130%' }}>
           <div
