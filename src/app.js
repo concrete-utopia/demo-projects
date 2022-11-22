@@ -32,7 +32,7 @@ export var App = () => {
           flexDirection: 'column',
           alignItems: 'center',
           padding: '44px 0px 25px',
-          gap: '26px',
+          gap: '22px',
           boxShadow: '0px 2px 33px #674168',
           left: 0,
         }}
@@ -66,6 +66,8 @@ export var App = () => {
               lineHeight: '125%',
               textShadow:
                 '0px 1px 1px #646464, 0px 8px 1px rgba(0, 0, 0, 0.25)',
+              width: 1084,
+              height: 90,
             }}
           >
             BBeffore I Go
@@ -77,33 +79,25 @@ export var App = () => {
             display: 'flex',
             flexDirection: 'row',
             alignItems: 'flex-start',
-            padding: '0px 0px 0px 40px',
-            gap: 25,
+            padding: '10px 0px 0px 19px',
+            gap: 32,
             width: '100%',
-            height: '55px',
+            height: '69.5px',
             overflowX: 'scroll',
           }}
         >
           <ClearCategoriesButton
             style={{
-              borderRadius: '50px',
+              borderRadizus: '50px',
               padding: '0px 18px',
-            }}
-          />
-          <CategoryItem
-            selected={false}
-            name='aquatic'
-            style={{
-              padding: '13px 27px',
-              borderRadius: '50px',
             }}
           />
           <CategoryItem
             selected={false}
             name='rare'
             style={{
-              padding: '13px 27px',
-              borderRadius: '50px',
+              padding: '10px 10px 10px 20px',
+              borderRadius: 11,
             }}
           />
           <CategoryItem
@@ -116,7 +110,7 @@ export var App = () => {
           />
           <CategoryItem
             selected={false}
-            name='trending'
+            name='aquatic'
             style={{
               padding: '13px 27px',
               borderRadius: '50px',
@@ -128,6 +122,19 @@ export var App = () => {
             style={{
               padding: '13px 27px',
               borderRadius: '50px',
+            }}
+          />
+          <CategoryItem
+            selected={false}
+            name='trending'
+            style={{
+              padding: '13px 27px',
+              borderRadius: '10px',
+              width: 139,
+              height: 45,
+              backgroundColor: 'rgb(217, 77, 255, 1)',
+              border: '4px solid rgb(214, 68, 255, 1)',
+              contain: 'layout',
             }}
           />
           <CategoryItem
