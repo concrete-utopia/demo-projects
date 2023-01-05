@@ -70,10 +70,7 @@ export var BirbWatcher = (props) => {
         ...props.style,
       }}
     >
-      <Birb
-        color='var(--off-white)'
-        style={{ width: 40, height: 0 }}
-      />
+      <Birb color='var(--off-white)' />
       <div
         style={{
           color: 'var(--off-white)',

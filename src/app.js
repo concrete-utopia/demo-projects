@@ -90,6 +90,7 @@ export var App = () => {
             style={{
               borderRadizus: '50px',
               padding: '0px 18px',
+              borderRadius: 22,
             }}
           />
           <CategoryItem
