@@ -1,3 +1,4 @@
+import { Tropicologist } from '/src/stickers.js'
 import * as React from 'react'
 export var DecorativeLines = (props) => {
   const runCallback = (cb) => {
