@@ -125,7 +125,14 @@ export var Profile = (props) => {
                   justifyContent: 'space-between',
                 }}
               >
-                <div>Primary Location: </div>
+                <div
+                  style={{
+                    fontWeight: 'bold',
+                    fontStyle: 'italic',
+                  }}
+                >
+                  Primary Location:
+                </div>
                 <div>New York City, USA</div>
               </div>
               <div
@@ -142,8 +149,7 @@ export var Profile = (props) => {
                   justifyContent: 'space-between',
                 }}
               >
-                <div>Living Since: </div>
-                <div>1999</div>
+                <div>Alive Since:1999</div>
               </div>
               <div
                 style={{
@@ -180,23 +186,17 @@ export var Profile = (props) => {
         >
           <Cryophile
             style={{
-              boxShadow:
-                '0px 2px 4px 5px rgb(0, 0, 0, 0.12)',
               borderRadius: '50%',
             }}
           />
           <BirbWatcher
             style={{
               width: 121,
-              boxShadow:
-                '0px 2px 4px 5px rgb(0, 0, 0, 0.12)',
               padding: '10px 0px 10px 10px',
             }}
           />
           <RiskTaker
             style={{
-              boxShadow:
-                '0px 2px 4px 5px rgb(0, 0, 0, 0.12)',
               transform: 'rotate(42deg)',
               borderRadius: '5px',
             }}
@@ -204,32 +204,22 @@ export var Profile = (props) => {
           <Mixologist
             style={{
               transform: 'rotate(5deg)',
-              boxShadow:
-                '0px 2px 4px 5px rgb(0, 0, 0, 0.12)',
-              padding: '5px 0',
             }}
           />
           <AquaMan
             style={{
               borderRadius: '50%',
-              boxShadow:
-                '0px 2px 4px 5px rgb(0, 0, 0, 0.12)',
             }}
           />
           <Wonderer
             style={{
               transform: 'rotate(-15deg)',
-              boxShadow:
-                '0px 2px 4px 5px rgb(0, 0, 0, 0.12)',
               borderRadius: '0 0 30% 30% ',
             }}
           />
           <Tropicologist
             style={{
               borderRadius: '30px 30px 0 0',
-              boxShadow:
-                '0px 2px 4px 5px rgb(0, 0, 0, 0.12)',
-              paddingTop: 5,
             }}
           />
         </Checkerboard>
