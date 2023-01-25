@@ -97,13 +97,13 @@ export var Ode = (props) => {
             color: 'var(--yellow)',
             position: 'absolute',
             fontFamily: 'var(--secondary)',
-            left: 58,
-            top: 157,
-            width: 563,
+            left: 47,
+            top: 165.5,
+            width: 742,
             height: 'min-content',
           }}
         >
-          {/* Before my time on earth is through
+          Before my time on earth is through
           <br />I want to see the world and all it has to
           offer
           <br />I want to climb mountains and become a bird
@@ -113,19 +113,18 @@ export var Ode = (props) => {
           <br />
           And visit every single museum, no matter how crude
           <br />I want to learn a new language and speak it
-          fluently <br />I want to dance and sing and be
-          full of energy
+          fluently
+          <br />I want to dance and sing and be full of
+          energy
           <br />
           <br />I want to go skydiving and bungee jumping
           too
-          <br />I want to go scuba diving and see
-          what&#x27;s underneath the blue
+          <br />I want to go scuba diving and see what's
+          underneath the blue
           <br />I want to go on safari and see animals in
           their natural habitat
-          <br />I want to do all these things and more,
-          it&#x27;s on my list, I&#x27;ll do it,
-          <br />
-          that&#x27;s that
+          <br />I want to do all these things, it's on my
+          list, I'll do it, that's that
           <br />
           <br />
           The world is full of endless possibilities
@@ -135,42 +134,8 @@ export var Ode = (props) => {
           <br />I want to find the end of every single
           rainbow
           <br />
-          And I want to do all these things,
-          <br /> before I go. */}
-          <p>
-            Before my time on earth is through I want to see
-            the world and all it has to offer I want to
-            <br /> climb mountains and become a bird watcher
-            I want
-            <br /> to try every type of food And visit every
-            single
-            <br /> museum, no matter how crude I want to
-            learn a
-            <br /> new language and speak it fluently I want
-            to
-            <br /> dance and sing and be full of energy I
-            want to
-            <br /> go skydiving and bungee jumping too I
-            want to go
-            <br /> scuba diving and see what's underneath
-            the
-            <br /> blue I want to go on safari and see
-            animals in
-            <br /> their natural habitat I want to do all
-            these
-            <br /> things and more, it's on my list, I'll
-            <br /> do it, that's that The world is full of
-            <br /> endless possibilities So many things to
-            do and
-            <br /> see, look at the stars,
-            <br />
-            feel the breeze I want to find the end ofevery
-            <br />
-            single rainbow And I want to do all these
-            <br />
-            things, before I go.
-            <br />
-          </p>
+          And I want to do all these things and more, before
+          I go.
         </span>
         <div
           style={{

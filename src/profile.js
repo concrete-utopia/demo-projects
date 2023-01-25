@@ -42,9 +42,11 @@ export var Profile = (props) => {
             fontSize: '22px',
             textShadow:
               '0px 1px 1px #646464, 0px 4px 1px rgba(0, 0, 0, 0.25)',
+            height: 'max-content',
+            textTransform: 'uppercase',
           }}
         >
-          Things I want to do
+          Things I waant to do
         </div>
         <div style={{ width: '130%' }}>
           <div
@@ -184,11 +186,7 @@ export var Profile = (props) => {
           color1='var(--yellow)'
           color2='var(--orange)'
         >
-          <Cryophile
-            style={{
-              borderRadius: '50%',
-            }}
-          />
+          <Cryophile style={{ borderRadius: '50%' }} />
           <BirbWatcher
             style={{
               width: 121,
@@ -202,15 +200,9 @@ export var Profile = (props) => {
             }}
           />
           <Mixologist
-            style={{
-              transform: 'rotate(5deg)',
-            }}
+            style={{ transform: 'rotate(5deg)' }}
           />
-          <AquaMan
-            style={{
-              borderRadius: '50%',
-            }}
-          />
+          <AquaMan style={{ borderRadius: '50%' }} />
           <Wonderer
             style={{
               transform: 'rotate(-15deg)',
@@ -218,9 +210,7 @@ export var Profile = (props) => {
             }}
           />
           <Tropicologist
-            style={{
-              borderRadius: '30px 30px 0 0',
-            }}
+            style={{ borderRadius: '30px 30px 0 0' }}
           />
         </Checkerboard>
       </div>

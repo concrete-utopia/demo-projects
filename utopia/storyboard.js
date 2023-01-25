@@ -12,7 +12,7 @@ import { Stamp } from '/src/cardcomponents/stamp.js'
 import { ImageContainer } from '/src/cardcomponents/imagecontainer.js'
 import { Profile } from '/src/profile.js'
 import { Ode } from '/src/ode.js'
-import { Comp } from '/src/comp.js'
+import { DiscoverActivities } from '/src/discoveractivities.js'
 import {
   AquaMan,
   Wonderer,
@@ -31,78 +31,12 @@ export var storyboard = (
         position: 'absolute',
         left: -1372,
         top: -593,
+        height: 'max-content',
       }}
       data-label='My List'
     >
-      <App style={{}} />
+      <App style={{ width: 834, height: 2676 }} />
     </Scene>
-    <DecorativeLines
-      style={{
-        width: 947,
-        position: 'absolute',
-        left: -392,
-        top: 308,
-      }}
-    />
-    <Description
-      description='testing the card out la la la description'
-      style={{
-        position: 'absolute',
-        left: -444,
-        top: -389.5,
-        padding: '5px 20px 14px 20px',
-        borderRadius: '0px 0px 20px 0px',
-      }}
-    />
-    <ImageContainer
-      imageUrl='https://cdn.utopia.app/editor/sample-assets/martini.jpg'
-      style={{
-        position: 'absolute',
-        left: -392,
-        top: -450,
-      }}
-    />
-    <Stamp
-      name='04 19 2011'
-      style={{
-        position: 'absolute',
-        left: 61.5,
-        top: -523.5,
-      }}
-      color='var(--orange)'
-    />
-    <Rating
-      rating={5}
-      style={{
-        position: 'absolute',
-        left: -445,
-        top: -110,
-        padding: '25px 20px',
-        borderRadius: 20,
-      }}
-      color='var(--orange)'
-    />
-    <div
-      style={{
-        backgroundColor: 'var(--off-white)',
-        position: 'absolute',
-        left: -276,
-        top: 119.5,
-        width: 750,
-        height: 324,
-        zIndex: -10,
-      }}
-    >
-      <Name
-        text='Drink a Martini on Mount Everest'
-        style={{
-          position: 'absolute',
-          width: '500px',
-          left: 10,
-          top: 55,
-        }}
-      />
-    </div>
     <Scene
       style={{
         width: 834,
@@ -116,26 +50,6 @@ export var storyboard = (
     >
       <Profile />
     </Scene>
-    <Wonderer
-      style={{
-        position: 'absolute',
-        left: -235.5,
-        top: -270,
-        width: 100,
-        height: 100,
-        transform: 'rotate(-14deg)',
-      }}
-    />
-    <Cryophile
-      style={{
-        position: 'absolute',
-        left: -169,
-        top: -209.5,
-        width: 100,
-        height: 100,
-        borderRadius: '50px',
-      }}
-    />
     <Scene
       style={{
         position: 'absolute',
@@ -151,13 +65,104 @@ export var storyboard = (
     <Scene
       style={{
         position: 'absolute',
-        left: -390,
-        top: 655,
+        left: -438,
+        top: -589,
         width: 834,
-        height: 1028,
+        height: 2188,
       }}
+      data-label='Discover List'
     >
-      <Comp />
+      <DiscoverActivities />
+    </Scene>
+    <Scene
+      style={{
+        position: 'absolute',
+        left: -3516,
+        top: -593,
+        width: 1120,
+        height: 1224,
+        background: 'white',
+        backgroundColor: '#eeeeea',
+      }}
+      data-label='Mood Board'
+    >
+      <Wonderer
+        style={{
+          position: 'absolute',
+          left: 631.5,
+          top: 221,
+          width: 100,
+          height: 100,
+          transform: 'rotate(-14deg)',
+          zIndex: 100,
+        }}
+      />
+      <Cryophile
+        style={{
+          position: 'absolute',
+          left: 708,
+          top: 160.5,
+          width: 100,
+          height: 100,
+          borderRadius: '50px',
+          zIndex: 100,
+        }}
+      />
+      <DecorativeLines
+        style={{
+          width: 879,
+          position: 'absolute',
+          left: 120.5,
+          top: 896,
+        }}
+      />
+      <Description
+        description='testing the card out la la la description'
+        style={{
+          position: 'absolute',
+          left: 79,
+          top: 298.5,
+          padding: '5px 20px 14px 20px',
+          borderRadius: '0px 0px 20px 0px',
+        }}
+      />
+      <ImageContainer
+        imageUrl='https://cdn.utopia.app/editor/sample-assets/martini.jpg'
+        style={{
+          position: 'absolute',
+          left: 121,
+          top: 276,
+        }}
+      />
+      <Stamp
+        name='04 19 2011'
+        style={{
+          position: 'absolute',
+          left: 864.5,
+          top: 318,
+        }}
+        color='var(--orange)'
+      />
+      <Rating
+        rating={5}
+        style={{
+          position: 'absolute',
+          left: 53,
+          top: 519,
+          padding: '25px 20px',
+          borderRadius: 20,
+        }}
+        color='var(--orange)'
+      />
+      <Name
+        text='Drink a Martini on Mount Everest'
+        style={{
+          position: 'absolute',
+          width: '500px',
+          left: 458,
+          top: 1011,
+        }}
+      />
     </Scene>
   </Storyboard>
 )
