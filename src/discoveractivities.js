@@ -231,8 +231,8 @@ export var DiscoverActivities = () => {
             >
               <Checkerboard
                 style={{ height: '100%' }}
-                color1='var(--yellow)'
-                color2='var(--orange)'
+                color1='var(--purple)'
+                color2='var(--yellow)'
               />
             </div>
           </div>
@@ -300,8 +300,8 @@ export var DiscoverActivities = () => {
               position: 'absolute',
               transform: 'rotate(12deg)',
               zIndex: 10,
-              left: 111,
-              top: 127,
+              left: 127,
+              top: 194,
             }}
           />
           <div
@@ -346,15 +346,16 @@ export var DiscoverActivities = () => {
             >
               <Checkerboard
                 style={{ height: '100%' }}
-                color1='var(--yellow)'
-                color2='var(--orange)'
+                color1='var(--purple)'
+                color2='var(--yellow)'
               />
             </div>
             <Cryophile
               style={{
                 position: 'absolute',
-                left: 139,
-                top: 211.5,
+                left: 95,
+                top: 116.5,
+                borderRadius: 50,
               }}
             />
           </div>
@@ -452,8 +453,8 @@ export var DiscoverActivities = () => {
             >
               <Checkerboard
                 style={{ height: '100%' }}
-                color1='var(--yellow)'
-                color2='var(--orange)'
+                color1='var(--purple)'
+                color2='var(--yellow)'
               />
             </div>
             <div
@@ -529,8 +530,8 @@ export var DiscoverActivities = () => {
             >
               <Checkerboard
                 style={{ height: '100%' }}
-                color1='var(--yellow)'
-                color2='var(--orange)'
+                color1='var(--purple)'
+                color2='var(--yellow)'
               />
             </div>
             <div
@@ -614,8 +615,8 @@ export var DiscoverActivities = () => {
             >
               <Checkerboard
                 style={{ height: '100%' }}
-                color1='var(--yellow)'
-                color2='var(--orange)'
+                color1='var(--purple)'
+                color2='var(--yellow)'
               />
             </div>
             <div
@@ -729,8 +730,8 @@ export var DiscoverActivities = () => {
             >
               <Checkerboard
                 style={{ height: '100%' }}
-                color1='var(--yellow)'
-                color2='var(--orange)'
+                color1='var(--purple)'
+                color2='var(--yellow)'
               />
             </div>
           </div>
@@ -812,8 +813,8 @@ export var DiscoverActivities = () => {
             >
               <Checkerboard
                 style={{ height: '100%' }}
-                color1='var(--yellow)'
-                color2='var(--orange)'
+                color1='var(--purple)'
+                color2='var(--yellow)'
               />
             </div>
             <div
@@ -891,8 +892,8 @@ export var DiscoverActivities = () => {
             >
               <Checkerboard
                 style={{ height: '100%' }}
-                color1='var(--yellow)'
-                color2='var(--orange)'
+                color1='var(--purple)'
+                color2='var(--yellow)'
               />
             </div>
             <div

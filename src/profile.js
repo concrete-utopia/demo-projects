@@ -12,6 +12,7 @@ import {
   DecorativeLines,
   Checkerboard,
 } from './cardcomponents/decorations.js'
+import { Stamp } from '/src/cardcomponents/stamp.js'
 
 export var Profile = (props) => {
   return (
@@ -112,7 +113,7 @@ export var Profile = (props) => {
             >
               McKayyyla Lannkau
             </div>
-            <div>
+            <div style={{ height: 'max-content' }}>
               <div
                 style={{
                   fontFamily: 'var(--secondary)',
@@ -151,7 +152,8 @@ export var Profile = (props) => {
                   justifyContent: 'space-between',
                 }}
               >
-                <div>Alive Since:1999</div>
+                <div>Alive Since:</div>
+                <div style={{ opacity: 1 }}>1999</div>
               </div>
               <div
                 style={{
@@ -167,8 +169,8 @@ export var Profile = (props) => {
                   justifyContent: 'space-between',
                 }}
               >
-                <div>Life Level: </div>
-                <div>Advanced</div>
+                <div>Life Level:</div>
+                <div style={{ opacity: 1 }}>Supreme</div>
               </div>
             </div>
           </div>

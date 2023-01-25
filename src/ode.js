@@ -154,7 +154,7 @@ export var Ode = (props) => {
               'linear-gradient(0deg, #FFA500 70%, #FFD689 92%, #FFFFFF9E 100%)',
           }}
         >
-          I have a list of things I need to do...
+          I have a list of things I want to do...
         </div>
       </div>
     </div>
