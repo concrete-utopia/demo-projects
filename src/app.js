@@ -51,7 +51,7 @@ export var App = () => {
               '0px 1px 1px #646464, 0px 4px 1px rgba(0, 0, 0, 0.25)',
           }}
         >
-          Things I want to do
+          THINGS I WAANT TO DO
         </div>
         <div style={{ width: '130%' }}>
           <div
@@ -97,8 +97,8 @@ export var App = () => {
             selected={false}
             name='rare'
             style={{
-              padding: '10px 10px 10px 20px',
-              borderRadius: 11,
+              padding: '13px 27px',
+              borderRadius: 50,
             }}
           />
           <CategoryItem
@@ -130,12 +130,7 @@ export var App = () => {
             name='trending'
             style={{
               padding: '13px 27px',
-              borderRadius: '10px',
-              width: 139,
-              height: 45,
-              backgroundColor: 'rgb(217, 77, 255, 1)',
-              border: '4px solid rgb(214, 68, 255, 1)',
-              contain: 'layout',
+              borderRadius: '50px',
             }}
           />
           <CategoryItem
