@@ -89,8 +89,8 @@ export var storyboard = (
       <Wonderer
         style={{
           position: 'absolute',
-          left: 631.5,
-          top: 221,
+          left: 751.5,
+          top: 115,
           width: 100,
           height: 100,
           transform: 'rotate(-14deg)',
@@ -100,8 +100,8 @@ export var storyboard = (
       <Cryophile
         style={{
           position: 'absolute',
-          left: 708,
-          top: 160.5,
+          left: 828,
+          top: 54.5,
           width: 100,
           height: 100,
           borderRadius: '50px',
