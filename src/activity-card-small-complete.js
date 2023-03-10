@@ -1,10 +1,6 @@
 import * as React from 'react'
 import '../public/globals.css'
-import { Stamp } from '/src/cardcomponents/stamp.js'
-import { DecorativeLines } from './cardcomponents/decorations.js'
-import { Description } from './cardcomponents/description.js'
 import { Name } from './cardcomponents/name.js'
-import { Rating } from './cardcomponents/rating.js'
 import { ImageContainer } from './cardcomponents/imagecontainer.js'
 
 export var ActivityCardSmallComplete = (props) => {
@@ -60,15 +56,6 @@ export var ActivityCardSmallComplete = (props) => {
           text={props.activity.name}
           style={{ marginRight: 20 }}
         />
-        {/* <Rating
-          rating={props.activity.rating}
-          style={{
-            padding: '25px 20px',
-            borderRadius: 20,
-            marginLeft: 20,
-          }}
-          color={props.color}
-        /> */}
       </div>
     </div>
   )

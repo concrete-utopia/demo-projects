@@ -1,9 +1,6 @@
 import * as React from 'react'
 import '../public/globals.css'
-import { DecorativeLines } from './cardcomponents/decorations.js'
 import { Name } from './cardcomponents/name.js'
-import { Rating } from './cardcomponents/rating.js'
-import { ImageContainer } from './cardcomponents/imagecontainer.js'
 
 export var ActivityCardSmallIncomplete = (props) => {
   return (
@@ -11,9 +8,6 @@ export var ActivityCardSmallIncomplete = (props) => {
       style={{
         width: 834,
         height: 267,
-        // display: 'flex',
-        // alignItems: 'center',
-        // justifyContent: 'center',
       }}
     >
       <div

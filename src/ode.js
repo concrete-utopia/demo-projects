@@ -2,17 +2,12 @@ import {
   AquaMan,
   Wonderer,
   BirbWatcher,
-  Mixologist,
   Tropicologist,
   RiskTaker,
-  Cryophile,
 } from './stickers.js'
-import {
-  DecorativeLines,
-  Checkerboard,
-} from './cardcomponents/decorations.js'
+import { Checkerboard } from './cardcomponents/decorations.js'
 
-export var Ode = (props) => {
+export var Ode = () => {
   return (
     <div style={{ width: '100%', height: '100%' }}>
       <Checkerboard
