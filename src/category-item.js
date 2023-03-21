@@ -72,7 +72,7 @@ export var ClearCategoriesButton = (props) => {
           fill-rule='evenodd'
           clip-rule='evenodd'
           d='M22.4531 26.3826L-4.28696 53.1226L-7.5 50.7401L19.6553 23.5848L-4.54693 -0.617489L-1.33389 -3L22.4531 20.787L46.2401 -3L49.4532 -0.617489L25.2509 23.5848L52.4062 50.7401L49.1932 53.1226L22.4531 26.3826Z'
-          fill='#621C75'
+          fill='var(--purple)'
         />
       </svg>
     </div>
