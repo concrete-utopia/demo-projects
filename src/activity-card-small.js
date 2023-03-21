@@ -6,7 +6,7 @@ import { ActivityCardSmallComplete2 } from '/src/activity-card-small-complete.js
 import { ActivityCardSmallIncomplete2 } from '/src/activity-card-small-incomplete.js'
 
 export var ActivityCardSmall = (props) => {
-  const [completed, setCompleted] = useState(false)
+  const [completed, setCompleted] = useState(true)
   const toggleComplete = useCallback(
     () => setCompleted((completed) => !completed),
     [],

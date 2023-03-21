@@ -1,9 +1,13 @@
-import { DecorativeLines } from '/src/cardcomponents/decorations.js'
+import {
+  DecorativeLines,
+  Checkerboard,
+} from '/src/cardcomponents/decorations.js'
 import { Description } from '/src/cardcomponents/description.js'
 import { Rating } from '/src/cardcomponents/rating.js'
 import { Stamp } from '/src/cardcomponents/stamp.js'
 import { ImageContainer } from '/src/cardcomponents/imagecontainer.js'
 import { Wonderer, Cryophile } from '/src/stickers.js'
+import { Mixologist } from '/src/stickers.js'
 
 export var MoodBoard = () => {
   return (
@@ -14,9 +18,19 @@ export var MoodBoard = () => {
         background: 'var(--off-white)',
         color: 'var(--purple)',
         fontFamily: 'primary-basic',
-        fontSize: '20px',
       }}
     >
+      <Checkerboard
+        style={{
+          position: 'absolute',
+          height: 335,
+          width: 532,
+          left: 850,
+          top: 144,
+        }}
+        color1='var(--yellow)'
+        color2='var(--orange)'
+      />
       <Cryophile
         style={{
           position: 'absolute',
@@ -44,8 +58,8 @@ export var MoodBoard = () => {
         style={{
           width: 798,
           position: 'absolute',
-          left: 179.5,
-          top: 875,
+          left: 120.5,
+          top: 913,
         }}
       />
       <Description
@@ -62,7 +76,7 @@ export var MoodBoard = () => {
         imageUrl='https://cdn.utopia.app/editor/sample-assets/martini.jpg'
         style={{
           position: 'absolute',
-          left: 528,
+          left: 421,
           top: 257,
         }}
       />
@@ -79,8 +93,8 @@ export var MoodBoard = () => {
         rating={5}
         style={{
           position: 'absolute',
-          left: 1436,
-          top: 235,
+          left: 1456,
+          top: 284,
           padding: '25px 20px',
           borderRadius: 20,
         }}
@@ -90,8 +104,8 @@ export var MoodBoard = () => {
         style={{
           position: 'absolute',
           wordBreak: 'break-word',
-          left: 529,
-          top: 996,
+          left: 457,
+          top: 1040,
           width: 620,
           fontSize: '24px',
           fontFamily: 'var(--secondary)',
@@ -115,6 +129,18 @@ export var MoodBoard = () => {
       >
         Drink a Martini On Mount Everest
       </span>
+      <Mixologist
+        style={{
+          POSITION: 'ABSOLUTE',
+          width: 100,
+          height: 100,
+          contain: 'layout',
+          borderRadius: 0,
+          position: 'absolute',
+          left: 1282,
+          top: 877.5,
+        }}
+      />
     </div>
   )
 }

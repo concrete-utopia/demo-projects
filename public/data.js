@@ -40,3 +40,5 @@ export const activities = [
       'Not just any martini, and espresso martini! Because its a long way back down...',
   },
 ]
+
+const categories = []
