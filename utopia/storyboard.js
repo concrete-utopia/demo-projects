@@ -29,7 +29,7 @@ export var storyboard = (
         left: -1362,
         top: -717,
         width: 834,
-        height: 2316,
+        height: 2292,
       }}
       data-label='Discover Activities'
     >
@@ -99,7 +99,7 @@ export var storyboard = (
       style={{
         position: 'absolute',
         left: 606.5,
-        top: 554,
+        top: 975,
         width: 834,
       }}
       data-label='Small Activity Card'

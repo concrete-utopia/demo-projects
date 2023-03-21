@@ -97,6 +97,28 @@ export var ActivityCardSmallComplete2 = (props) => {
           }}
         >
           {props.activity.description}
+          <br />
+          <br />
+          <div
+            style={{
+              display: 'flex',
+              flexDirection: 'row',
+              gap: 5,
+            }}
+          >
+            {props.activity.categories.map((category) => (
+              <div
+                style={{
+                  backgroundColor: 'var(--purple)',
+                  color: props.color,
+                  padding: '2px 6px',
+                  borderRadius: 3,
+                }}
+              >
+                {category}
+              </div>
+            ))}
+          </div>
         </div>
       </div>
       <div

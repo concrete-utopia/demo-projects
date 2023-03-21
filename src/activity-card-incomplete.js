@@ -42,18 +42,52 @@ export var ActivityCardIncomplete = (props) => {
           width: '100%',
           display: 'flex',
           flexDirection: 'row-reverse',
-          margin: '0px 0px 40px 20px',
+          padding: 20,
           alignItems: 'flex-end',
-          gap: 20,
-          height: 120,
+          justifyContent: 'space-between',
+          height: 180,
           zIndex: 10,
         }}
       >
-        <Name
-          text={props.activity.name}
-          style={{ marginRight: 20 }}
+        <Rating
+          style={{
+            opacity: 0,
+          }}
         />
-        <Rating style={{ opacity: 0 }} />
+        <div
+          style={{
+            display: 'flex',
+            flexDirection: 'column',
+            gap: 30,
+          }}
+        >
+          <Name
+            text={props.activity.name}
+            style={{ marginRight: 20 }}
+          />
+          <div
+            style={{
+              display: 'flex',
+              flexDirection: 'row',
+              gap: 15,
+              opacity: 0,
+            }}
+          >
+            {props.activity.categories.map((category) => (
+              <div
+                style={{
+                  backgroundColor: 'var(--purple)',
+                  color: props.color,
+                  padding: '2px 6px',
+                  borderRadius: 3,
+                  fontFamily: 'var(--secondary)',
+                }}
+              >
+                {category}
+              </div>
+            ))}
+          </div>
+        </div>
       </div>
     </div>
   )

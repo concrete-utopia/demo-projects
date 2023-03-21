@@ -6,7 +6,6 @@ export var Name = (props) => {
         color: 'var(--purple)',
         fontFamily: 'primary',
         fontSize: '38px',
-        textAlign: 'right',
         lineHeight: '1.2em',
         ...props.style,
       }}

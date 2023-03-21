@@ -24,20 +24,17 @@ export var ActivityCard = (props) => {
       style={{ overflow: 'hidden' }}
       css={{ '&:hover': { cursor: 'pointer' } }}
     >
-      {
-        // @utopia/conditional=true
-        completed ? (
-          <ActivityCardComplete
-            activity={props.activity}
-            color={color}
-          />
-        ) : (
-          <ActivityCardIncomplete
-            activity={props.activity}
-            color={color}
-          />
-        )
-      }
+      {completed ? (
+        <ActivityCardComplete
+          activity={props.activity}
+          color={color}
+        />
+      ) : (
+        <ActivityCardIncomplete
+          activity={props.activity}
+          color={color}
+        />
+      )}
     </div>
   )
 }

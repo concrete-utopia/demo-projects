@@ -57,20 +57,50 @@ export var ActivityCardSmallIncomplete2 = (props) => {
           display: 'flex',
           flexDirection: 'column',
           padding: '20px 40px 20px 20px',
-          color: 'var(--purple)',
           backgroundColor: props.color,
-          gap: 20,
-          fontFamily: 'primary',
-          fontSize: '28px',
-          textAlign: 'left',
-          lineHeight: '1.2em',
+          gap: 10,
           position: 'absolute',
           borderBottomRightRadius: 20,
-          zIndex: 100,
+          zIndex: 10,
         }}
       >
-        {props.activity.name}
+        <div
+          style={{
+            color: 'var(--purple)',
+            fontFamily: 'primary',
+            fontSize: '28px',
+            textAlign: 'left',
+            lineHeight: '1.2em',
+          }}
+        >
+          {props.activity.name}
+        </div>
+
+        {/* <div
+          style={{
+            display: 'flex',
+            flexDirection: 'row',
+            gap: 5,
+            fontSize: 12,
+            fontFamily: 'var(--secondary)',
+          }}
+        >
+          {props.activity.categories.map((category) => (
+            <div
+              style={{
+                backgroundColor: 'var(--purple)',
+                color: props.color,
+                padding: '2px 6px',
+                borderRadius: 3,
+                height: 'min-content',
+              }}
+            >
+              {category}
+            </div>
+          ))}
+        </div> */}
       </div>
+
       <div
         style={{
           width: '100%',

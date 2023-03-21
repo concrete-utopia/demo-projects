@@ -37,18 +37,18 @@ export var ActivityCardComplete = (props) => {
             justifyContent: 'space-between',
           }}
         >
-          <Description
-            description={props.activity.description}
-            style={{
-              padding: '5px 20px 14px 20px',
-              borderRadius: '0px 0px 20px 0px',
-              backgroundColor: props.color,
-            }}
-          />
           <Stamp
             name={props.activity.date}
             style={{ top: -160, left: 40, marginTop: -20 }}
             color={props.color}
+          />
+          <Description
+            description={props.activity.description}
+            style={{
+              padding: '5px 20px 14px 20px',
+              borderRadius: '0px 0px 0px 20px',
+              backgroundColor: props.color,
+            }}
           />
         </div>
       </div>
@@ -62,26 +62,54 @@ export var ActivityCardComplete = (props) => {
           width: '100%',
           display: 'flex',
           flexDirection: 'row-reverse',
-          margin: '0px 0px 40px 20px',
+          padding: 20,
           alignItems: 'flex-end',
           justifyContent: 'space-between',
-          height: 120,
+          height: 180,
           zIndex: 10,
         }}
       >
-        <Name
-          text={props.activity.name}
-          style={{ marginRight: 20 }}
-        />
         <Rating
           rating={props.activity.rating}
           style={{
             padding: '25px 20px',
             borderRadius: 20,
-            marginLeft: 20,
           }}
           color={props.color}
         />
+        <div
+          style={{
+            display: 'flex',
+            flexDirection: 'column',
+            gap: 30,
+          }}
+        >
+          <Name
+            text={props.activity.name}
+            style={{ marginRight: 20 }}
+          />
+          <div
+            style={{
+              display: 'flex',
+              flexDirection: 'row',
+              gap: 15,
+            }}
+          >
+            {props.activity.categories.map((category) => (
+              <div
+                style={{
+                  backgroundColor: 'var(--purple)',
+                  color: props.color,
+                  padding: '2px 6px',
+                  borderRadius: 3,
+                  fontFamily: 'var(--secondary)',
+                }}
+              >
+                {category}
+              </div>
+            ))}
+          </div>
+        </div>
       </div>
     </div>
   )

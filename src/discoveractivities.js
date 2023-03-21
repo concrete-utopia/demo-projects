@@ -13,6 +13,7 @@ import {
   RiskTaker,
   Cryophile,
 } from './stickers.js'
+import { Title } from '/src/title.js'
 
 export var DiscoverActivities = () => {
   return (
@@ -25,6 +26,7 @@ export var DiscoverActivities = () => {
         gap: 60,
         background: 'var(--orange)',
         color: 'var(--purple)',
+        fontFamily: 'var(--secondary)',
       }}
     >
       <div
@@ -35,48 +37,12 @@ export var DiscoverActivities = () => {
           display: 'flex',
           flexDirection: 'column',
           alignItems: 'center',
-          padding: '44px 0px 25px',
-          gap: '22px',
+          padding: '0px 0px 25px',
+          gap: 5,
           boxShadow: '0px 2px 33px var(--purple)',
-          left: 0,
         }}
       >
-        <div
-          style={{
-            width: '100%',
-            color: 'var(--orange)',
-            fontFamily: 'primary',
-            textAlign: 'center',
-            fontWeight: 400,
-            fontStyle: 'normal',
-            border: '0px solid rgb(255, 174, 52, 1)',
-            fontSize: '22px',
-            textShadow:
-              '0px 1px 1px #646464, 0px 4px 1px rgba(0, 0, 0, 0.25)',
-          }}
-        >
-          THINGS I WAANT TO DO
-        </div>
-        <div style={{ width: '130%' }}>
-          <div
-            style={{
-              color: 'var(--orange)',
-              fontFamily: 'primary',
-              textAlign: 'center',
-              fontWeight: 400,
-              fontStyle: 'normal',
-              border: '0px solid rgb(255, 174, 52, 1)',
-              fontSize: '72px',
-              lineHeight: '125%',
-              textShadow:
-                '0px 1px 1px #646464, 0px 8px 1px rgba(0, 0, 0, 0.25)',
-              width: 1084,
-              height: 90,
-            }}
-          >
-            BBeffore I Go
-          </div>
-        </div>
+        <Title alteration='Discover' />
         <div
           className='category-container'
           style={{
@@ -149,7 +115,6 @@ export var DiscoverActivities = () => {
       </div>
       <div
         style={{
-          height: '252px',
           display: 'flex',
           flexDirection: 'row',
           width: '100%',
@@ -250,25 +215,16 @@ export var DiscoverActivities = () => {
           >
             Best Summer ever
           </div>
-          <div
-            style={{
-              fontSize: '1em',
-              fontFamily: 'Reckless Neue Trial',
-              marginTop: 20,
-            }}
-          >
+          <div style={{ fontSize: '1em', marginTop: 20 }}>
             I stayed in a beautiful villa on a tropical
             island. The villa had its own private pool,
             which was the perfect spot to relax and soak up
-            the sun.
+            the sun!
             <br />
-            <br />
-            Every day, we would spend hours lounging by the
-            pool, sipping on refreshing cocktails. The water
-            was crystal clear and inviting, and we would
-            take dips to cool off. I'm immensely grateful
-            for this life experience I got to share with
-            great people.
+            The water was crystal clear and inviting, and we
+            would take dips to cool off. I'm immensely
+            grateful for this life experience I got to share
+            with great people.
           </div>
         </div>
       </div>
@@ -380,16 +336,11 @@ export var DiscoverActivities = () => {
           >
             on my bucket list.
           </div>
-          <span
-            style={{
-              fontSize: '1em',
-              fontFamily: 'Reckless Neue Trial',
-            }}
-          >
+          <span>
             I've always wanted to witness the Northern
-            Lights with my own eyes. It's on my bucket list
-            because it represents a dream that I've had for
-            as long as I can remember!
+            Lights with my own eyes. It's on my list because
+            it represents a dream that I've had for as long
+            as I can remember!
           </span>
         </div>
         <div
@@ -654,12 +605,11 @@ export var DiscoverActivities = () => {
               zIndex: 100,
             }}
           >
-            You Gotta risk it, to get the biscuit
+            gotta risk it, to get the biscuit!
           </div>
           <div
             style={{
-              fontSize: '1em',
-              fontFamily: 'Reckless Neue Trial',
+              fontSize: '12px',
               marginTop: 20,
             }}
           >
@@ -927,8 +877,7 @@ export var DiscoverActivities = () => {
           </div>
           <div
             style={{
-              fontSize: '1em',
-              fontFamily: 'Reckless Neue Trial',
+              fontSize: '12px',
               marginTop: 20,
             }}
           >
