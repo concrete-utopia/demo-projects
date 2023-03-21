@@ -8,20 +8,22 @@ export var ActivityCardSmallIncomplete = (props) => {
       style={{
         width: 834,
         height: 267,
+        overflow: 'hidden',
+        backgroundImage: `url(${props.activity.imageUrl})`,
+        backgroundSize: '100%',
+        backgroundPosition: '50%',
       }}
     >
       <div
         style={{
           width: '100%',
-          height: 290,
+          height: 267,
           backgroundImage: `url(${props.activity.imageUrl})`,
-          backgroundSize: '110%',
+          backgroundSize: '100%',
           backgroundPosition: '50%',
           filter: 'blur(1rem)',
-          margin: '-5px -10px -10px -5px',
-          ...props.style,
         }}
-      ></div>
+      />
       <Name
         text={props.activity.name}
         style={{
@@ -33,6 +35,52 @@ export var ActivityCardSmallIncomplete = (props) => {
           padding: '0 70px',
         }}
       />
+    </div>
+  )
+}
+
+export var ActivityCardSmallIncomplete2 = (props) => {
+  return (
+    <div
+      style={{
+        width: 834,
+        height: 267,
+        overflow: 'hidden',
+        backgroundImage: `url(${props.activity.imageUrl})`,
+        backgroundSize: '100%',
+        backgroundPosition: '50%',
+        borderTop: `3px solid ${props.color}`,
+      }}
+    >
+      <div
+        style={{
+          width: '100%',
+          height: 267,
+          backgroundImage: `url(${props.activity.imageUrl})`,
+          backgroundSize: '100%',
+          backgroundPosition: '50%',
+          filter: 'blur(1rem)',
+        }}
+      />
+      <div
+        style={{
+          display: 'flex',
+          flexDirection: 'column',
+          padding: '20px 40px 20px 25px',
+          color: 'var(--purple)',
+          backgroundColor: props.color,
+          gap: 20,
+          fontFamily: 'primary',
+          fontSize: '28px',
+          textAlign: 'left',
+          lineHeight: '1.2em',
+          position: 'absolute',
+          top: 0,
+          borderBottomRightRadius: 20,
+        }}
+      >
+        {props.activity.name}
+      </div>
     </div>
   )
 }

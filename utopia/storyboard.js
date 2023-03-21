@@ -10,8 +10,14 @@ import { ActivityCardComplete } from '/src/activity-card-complete.js'
 import { ActivityCardIncomplete } from '/src/activity-card-incomplete.js'
 
 import { ActivityCardSmall } from '/src/activity-card-small.js'
-import { ActivityCardSmallComplete } from '/src/activity-card-small-complete.js'
-import { ActivityCardSmallIncomplete } from '/src/activity-card-small-incomplete.js'
+import {
+  ActivityCardSmallComplete,
+  ActivityCardSmallComplete2,
+} from '/src/activity-card-small-complete.js'
+import {
+  ActivityCardSmallIncomplete,
+  ActivityCardSmallIncomplete2,
+} from '/src/activity-card-small-incomplete.js'
 
 import { activities } from '../public/data.js'
 
@@ -131,6 +137,20 @@ export var storyboard = (
     <Scene
       style={{
         position: 'absolute',
+        left: 2430,
+        top: 975,
+        width: 834,
+      }}
+      data-label='Complete 2'
+    >
+      <ActivityCardSmallComplete2
+        activity={activities[1]}
+        color='var(--yellow)'
+      />
+    </Scene>
+    <Scene
+      style={{
+        position: 'absolute',
         left: 1561.5,
         top: -401,
         width: 834,
@@ -152,6 +172,20 @@ export var storyboard = (
       data-label='Incomplete'
     >
       <ActivityCardSmallIncomplete
+        activity={activities[1]}
+        color='var(--yellow)'
+      />
+    </Scene>
+    <Scene
+      style={{
+        position: 'absolute',
+        left: 1561.5,
+        top: 975,
+        width: 834,
+      }}
+      data-label='Incomplete 2'
+    >
+      <ActivityCardSmallIncomplete2
         activity={activities[1]}
         color='var(--yellow)'
       />
