@@ -54,19 +54,9 @@ export var ActivityCardSmallIncomplete2 = (props) => {
     >
       <div
         style={{
-          width: '100%',
-          height: 267,
-          backgroundImage: `url(${props.activity.imageUrl})`,
-          backgroundSize: '100%',
-          backgroundPosition: '50%',
-          filter: 'blur(1rem)',
-        }}
-      />
-      <div
-        style={{
           display: 'flex',
           flexDirection: 'column',
-          padding: '20px 40px 20px 25px',
+          padding: '20px 40px 20px 20px',
           color: 'var(--purple)',
           backgroundColor: props.color,
           gap: 20,
@@ -75,12 +65,22 @@ export var ActivityCardSmallIncomplete2 = (props) => {
           textAlign: 'left',
           lineHeight: '1.2em',
           position: 'absolute',
-          top: 0,
           borderBottomRightRadius: 20,
+          zIndex: 100,
         }}
       >
         {props.activity.name}
       </div>
+      <div
+        style={{
+          width: '100%',
+          height: 267,
+          backgroundImage: `url(${props.activity.imageUrl})`,
+          backgroundSize: '100%',
+          backgroundPosition: '50%',
+          filter: 'blur(1rem)',
+        }}
+      />
     </div>
   )
 }

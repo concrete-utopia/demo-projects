@@ -62,6 +62,7 @@ export var ActivityCardSmallComplete2 = (props) => {
         display: 'flex',
         flexDirection: 'row',
         overflow: 'hidden',
+        borderTop: `3px solid ${props.color}`,
         ...props.style,
       }}
     >
@@ -70,7 +71,7 @@ export var ActivityCardSmallComplete2 = (props) => {
           display: 'flex',
           flexDirection: 'column',
           justifyContent: 'space-between',
-          padding: 25,
+          padding: 20,
           color: 'var(--purple)',
           backgroundColor: props.color,
           gap: 20,
@@ -98,27 +99,34 @@ export var ActivityCardSmallComplete2 = (props) => {
           {props.activity.description}
         </div>
       </div>
-      <ImageContainer
-        imageUrl={props.activity.imageUrl}
-        style={{ height: '100%' }}
-      />
       <div
         style={{
+          height: '100%',
+          width: '100%',
+          backgroundImage: `url(${props.activity.imageUrl})`,
+          backgroundSize: '100%',
+          backgroundPosition: '50%',
           display: 'flex',
-          justifyContent: 'center',
-          alignItems: 'center',
-          padding: 20,
-          fontFamily: 'var(--secondary)',
-          fontSize: '20px',
-          fontWeight: '600',
-          color: props.color,
-          position: 'absolute',
-          right: 0,
-          bottom: 0,
-          zIndex: 10,
+          alignItems: 'flex-end',
+          justifyContent: 'flex-end',
         }}
       >
-        {props.activity.date}
+        <div
+          style={{
+            height: 'min-content',
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
+            padding: 20,
+            fontFamily: 'var(--secondary)',
+            fontSize: '20px',
+            fontWeight: '600',
+            color: props.color,
+            zIndex: 100,
+          }}
+        >
+          {props.activity.date}
+        </div>
       </div>
     </div>
   )

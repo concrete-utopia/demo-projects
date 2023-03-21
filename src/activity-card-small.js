@@ -2,8 +2,8 @@
 import { jsx } from '@emotion/react'
 import '../public/globals.css'
 import { useState, useCallback } from 'react'
-import { ActivityCardSmallComplete } from '/src/activity-card-small-complete.js'
-import { ActivityCardSmallIncomplete } from '/src/activity-card-small-incomplete.js'
+import { ActivityCardSmallComplete2 } from '/src/activity-card-small-complete.js'
+import { ActivityCardSmallIncomplete2 } from '/src/activity-card-small-incomplete.js'
 
 export var ActivityCardSmall = (props) => {
   const [completed, setCompleted] = useState(false)
@@ -25,12 +25,12 @@ export var ActivityCardSmall = (props) => {
       css={{ '&:hover': { cursor: 'pointer' } }}
     >
       {completed ? (
-        <ActivityCardSmallComplete
+        <ActivityCardSmallComplete2
           activity={props.activity}
           color={color}
         />
       ) : (
-        <ActivityCardSmallIncomplete
+        <ActivityCardSmallIncomplete2
           activity={props.activity}
           color={color}
         />

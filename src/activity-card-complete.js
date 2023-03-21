@@ -1,4 +1,4 @@
-// import * as React from 'react'
+import * as React from 'react'
 import '../public/globals.css'
 import { Stamp } from '/src/cardcomponents/stamp.js'
 import { DecorativeLines } from './cardcomponents/decorations.js'
