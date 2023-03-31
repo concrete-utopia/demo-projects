@@ -6,7 +6,7 @@ import { ActivityCardComplete } from '/src/activity-card-complete.js'
 import { ActivityCardIncomplete } from '/src/activity-card-incomplete.js'
 
 export var ActivityCard = (props) => {
-  const [completed, setCompleted] = useState(true)
+  const [completed, setCompleted] = useState(false)
   const toggleComplete = useCallback(
     () => setCompleted((completed) => !completed),
     [],
@@ -24,17 +24,20 @@ export var ActivityCard = (props) => {
       style={{ overflow: 'hidden' }}
       css={{ '&:hover': { cursor: 'pointer' } }}
     >
-      {completed ? (
-        <ActivityCardComplete
-          activity={props.activity}
-          color={color}
-        />
-      ) : (
-        <ActivityCardIncomplete
-          activity={props.activity}
-          color={color}
-        />
-      )}
+      {
+        // @utopia/conditional=true
+        completed ? (
+          <ActivityCardComplete
+            activity={props.activity}
+            color={color}
+          />
+        ) : (
+          <ActivityCardIncomplete
+            activity={props.activity}
+            color={color}
+          />
+        )
+      }
     </div>
   )
 }

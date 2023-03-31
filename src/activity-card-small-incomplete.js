@@ -61,7 +61,8 @@ export var ActivityCardSmallIncomplete2 = (props) => {
           gap: 10,
           position: 'absolute',
           borderBottomRightRadius: 20,
-          zIndex: 10,
+
+          zIndex: 100,
         }}
       >
         <div
