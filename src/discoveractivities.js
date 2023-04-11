@@ -262,7 +262,7 @@ export var DiscoverActivities = () => {
           />
           <div
             style={{
-              height: '30%',
+              height: '23.41563786008%',
               padding: 10,
               color: 'var(--purple)',
               background: 'var(--yellow)',
@@ -279,12 +279,13 @@ export var DiscoverActivities = () => {
               width: '100%',
               display: 'flex',
               flexDirection: 'row',
+              height: 273,
             }}
           >
             <div
               style={{
                 width: '70%',
-                height: '240px',
+                height: '275px',
                 backgroundImage:
                   'url(https://cdn.utopia.app/editor/sample-assets/martini.jpg)',
                 backgroundSize: '100%',
@@ -318,7 +319,7 @@ export var DiscoverActivities = () => {
         </div>
         <div
           style={{
-            width: '22.29976019185%',
+            width: '26.61630695444%',
             display: 'flex',
             flexDirection: 'column',
             justifyContent: 'space-between',
@@ -336,7 +337,7 @@ export var DiscoverActivities = () => {
           >
             on my bucket list.
           </div>
-          <span>
+          <span style={{ width: 200, height: 195 }}>
             I've always wanted to witness the Northern
             Lights with my own eyes. It's on my list because
             it represents a dream that I've had for as long
@@ -345,7 +346,7 @@ export var DiscoverActivities = () => {
         </div>
         <div
           style={{
-            width: 308,
+            width: 274,
             height: '100%',
             background: 'var(--yellow)',
             border: '4px solid var(--yellow)',
@@ -422,6 +423,117 @@ export var DiscoverActivities = () => {
             >
               FFeast Youur Eyes!
             </div>
+          </div>
+        </div>
+      </div>
+      <div
+        style={{
+          display: 'flex',
+          flexDirection: 'row',
+          width: '100%',
+          padding: '0px 40px 0px 40px',
+          justifyContent: 'space-between',
+        }}
+      >
+        <div style={{ width: '60%' }}>
+          <div
+            style={{
+              fontSize: '2.4em',
+              textTransform: 'uppercase',
+              fontFamily: 'var(--secondary)',
+              fontWeight: '600',
+              lineHeight: '130%',
+              zIndex: 100,
+            }}
+          >
+            gotta risk it, to get the biscuit!
+          </div>
+          <div style={{ fontSize: '12px', marginTop: 20 }}>
+            I have always been drawn to the thrill of
+            adventure and pushing my limits. I know that
+            some activities are risky and that there is an
+            element of danger involved, but that's what
+            makes it so appealing to me. <br />
+            <br />I want to experience that feeling of pure
+            exhilaration and I want to be able to say that I
+            faced my fear and did something truly daring. I
+            am aware of the risks, but I am willing to take
+            them to experience something truly unique and
+            unforgettable.
+            <br />
+          </div>
+        </div>
+        <div
+          style={{
+            width: '33.83693045564%',
+            height: 297,
+            background: 'var(--yellow)',
+            border: '4px solid var(--yellow)',
+            borderRadius: 20,
+            overflow: 'hidden',
+            display: 'flex',
+            flexDirection: 'column',
+            boxShadow: '0px 2px 33px var(--purple)',
+            position: 'relative',
+          }}
+        >
+          <div
+            style={{
+              width: '100%',
+              height: '76.23602976544%',
+              display: 'flex',
+              flexDirection: 'row',
+            }}
+          >
+            <RiskTaker
+              style={{
+                position: 'absolute',
+                top: 33,
+                left: 139,
+                zIndex: 10,
+                transform: 'rotate(47deg)',
+              }}
+            />
+            <div
+              style={{
+                width: '188px',
+                height: '100%',
+                backgroundImage:
+                  'url(https://wisconsinskydivingcenter.com/wp-content/uploads/2020/12/emmycoop-smiling-with-joy-during-freefall-at-Wisconsin-Skydiving-Center-near-Milwaukee.jpg)',
+                backgroundSize: '130px',
+                backgroundPosition: '40% 30%',
+                filter: 'contrast(150%)',
+                mixBlendMode: 'luminosity',
+                opacity: 0.8,
+              }}
+            />
+            <div
+              style={{
+                width: '66px',
+                height: '100%',
+                background: 'var(--orange)',
+              }}
+            >
+              <Checkerboard
+                style={{ height: '100%' }}
+                color1='var(--purple)'
+                color2='var(--yellow)'
+              />
+            </div>
+          </div>
+          <div
+            style={{
+              height: '30%',
+              padding: 10,
+              color: 'var(--purple)',
+              background: 'var(--yellow)',
+              fontFamily: 'var(--primary)',
+              fontSize: '1.15em',
+              lineHeight: '1.7em',
+              width: -47,
+            }}
+          >
+            Jummp Out of a HHHHelicopter
           </div>
         </div>
       </div>
@@ -582,122 +694,6 @@ export var DiscoverActivities = () => {
                 opacity: 0.8,
               }}
             />
-          </div>
-        </div>
-      </div>
-      <div
-        style={{
-          display: 'flex',
-          flexDirection: 'row',
-          width: '100%',
-          padding: '0px 40px 0px 40px',
-          justifyContent: 'space-between',
-        }}
-      >
-        <div style={{ width: '60%' }}>
-          <div
-            style={{
-              fontSize: '2.4em',
-              textTransform: 'uppercase',
-              fontFamily: 'var(--secondary)',
-              fontWeight: '600',
-              lineHeight: '130%',
-              zIndex: 100,
-            }}
-          >
-            gotta risk it, to get the biscuit!
-          </div>
-          <div
-            style={{
-              fontSize: '12px',
-              marginTop: 20,
-            }}
-          >
-            I have always been drawn to the thrill of
-            adventure and pushing my limits. I know that
-            some activities are risky and that there is an
-            element of danger involved, but that's what
-            makes it so appealing to me. <br />
-            <br />I want to experience that feeling of pure
-            exhilaration and I want to be able to say that I
-            faced my fear and did something truly daring. I
-            am aware of the risks, but I am willing to take
-            them to experience something truly unique and
-            unforgettable.
-            <br />
-          </div>
-        </div>
-        <div
-          style={{
-            width: '33.83693045564%',
-            height: 297,
-            background: 'var(--yellow)',
-            border: '4px solid var(--yellow)',
-            borderRadius: 20,
-            overflow: 'hidden',
-            display: 'flex',
-            flexDirection: 'column',
-            boxShadow: '0px 2px 33px var(--purple)',
-            position: 'relative',
-          }}
-        >
-          <div
-            style={{
-              width: '100%',
-              height: '76.23602976544%',
-              display: 'flex',
-              flexDirection: 'row',
-            }}
-          >
-            <RiskTaker
-              style={{
-                position: 'absolute',
-                top: 33,
-                left: 139,
-                zIndex: 10,
-                transform: 'rotate(47deg)',
-              }}
-            />
-            <div
-              style={{
-                width: '188px',
-                height: '100%',
-                backgroundImage:
-                  'url(https://wisconsinskydivingcenter.com/wp-content/uploads/2020/12/emmycoop-smiling-with-joy-during-freefall-at-Wisconsin-Skydiving-Center-near-Milwaukee.jpg)',
-                backgroundSize: '130px',
-                backgroundPosition: '40% 30%',
-                filter: 'contrast(150%)',
-                mixBlendMode: 'luminosity',
-                opacity: 0.8,
-              }}
-            />
-            <div
-              style={{
-                width: '66px',
-                height: '100%',
-                background: 'var(--orange)',
-              }}
-            >
-              <Checkerboard
-                style={{ height: '100%' }}
-                color1='var(--purple)'
-                color2='var(--yellow)'
-              />
-            </div>
-          </div>
-          <div
-            style={{
-              height: '30%',
-              padding: 10,
-              color: 'var(--purple)',
-              background: 'var(--yellow)',
-              fontFamily: 'var(--primary)',
-              fontSize: '1.15em',
-              lineHeight: '1.7em',
-              width: -47,
-            }}
-          >
-            Jummp Out of a HHHHelicopter
           </div>
         </div>
       </div>
@@ -875,12 +871,7 @@ export var DiscoverActivities = () => {
           >
             Chase Your dreams.
           </div>
-          <div
-            style={{
-              fontSize: '12px',
-              marginTop: 20,
-            }}
-          >
+          <div style={{ fontSize: '12px', marginTop: 20 }}>
             It's an experience that is truly once in a
             lifetime and I want to be able to see it before
             I go. It'll be a truly magical moment and I'm

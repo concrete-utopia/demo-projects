@@ -26,7 +26,7 @@ export var storyboard = (
     <Scene
       style={{
         position: 'absolute',
-        left: -1362,
+        left: -1370,
         top: -717,
         width: 834,
         height: 2292,

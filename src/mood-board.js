@@ -10,6 +10,9 @@ import { Wonderer, Cryophile } from '/src/stickers.js'
 import { Mixologist } from '/src/stickers.js'
 
 export var MoodBoard = () => {
+  const handleClick = () => {
+    console.log('Cheers!')
+  }
   return (
     <div
       style={{
@@ -20,6 +23,32 @@ export var MoodBoard = () => {
         fontFamily: 'primary-basic',
       }}
     >
+      <span
+        onClick={handleClick}
+        style={{
+          position: 'absolute',
+          wordBreak: 'break-word',
+          fontSize: '44px',
+          height: 114,
+          color: 'rgb(145, 16, 123, 1)',
+          left: 87,
+          top: 80,
+          width: 696,
+        }}
+      >
+        Drink a Martini On Mount Everest
+      </span>
+      <Mixologist
+        style={{
+          width: 100,
+          height: 100,
+          contain: 'layout',
+          borderRadius: 0,
+          position: 'absolute',
+          left: 1282,
+          top: 877.5,
+        }}
+      />
       <Checkerboard
         style={{
           position: 'absolute',
@@ -45,8 +74,8 @@ export var MoodBoard = () => {
       <Wonderer
         style={{
           position: 'absolute',
-          left: 1428,
-          top: 827.5,
+          left: 1417,
+          top: 938.5,
           width: 100,
           height: 100,
           transform: 'rotate(-14deg)',
@@ -116,31 +145,6 @@ export var MoodBoard = () => {
         Not just any martini, and espresso martini! Because
         it's a long way back down...
       </span>
-      <span
-        style={{
-          position: 'absolute',
-          wordBreak: 'break-word',
-          left: 179,
-          top: 118,
-          width: 680,
-          fontSize: '44px',
-          height: 156,
-        }}
-      >
-        Drink a Martini On Mount Everest
-      </span>
-      <Mixologist
-        style={{
-          POSITION: 'ABSOLUTE',
-          width: 100,
-          height: 100,
-          contain: 'layout',
-          borderRadius: 0,
-          position: 'absolute',
-          left: 1282,
-          top: 877.5,
-        }}
-      />
     </div>
   )
 }

@@ -74,6 +74,7 @@ export var Profile = (props) => {
           display: 'flex',
           flexDirection: 'column',
           ...props.style,
+          height: 'max-content',
         }}
       >
         <div
@@ -204,15 +205,15 @@ export var Profile = (props) => {
           <Mixologist
             style={{ transform: 'rotate(5deg)' }}
           />
+          <Tropicologist
+            style={{ borderRadius: '30px 30px 0 0' }}
+          />
           <AquaMan style={{ borderRadius: '50%' }} />
           <Wonderer
             style={{
               transform: 'rotate(-15deg)',
               borderRadius: '0 0 30% 30% ',
             }}
-          />
-          <Tropicologist
-            style={{ borderRadius: '30px 30px 0 0' }}
           />
         </Checkerboard>
       </div>

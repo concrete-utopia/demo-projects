@@ -62,18 +62,6 @@ export var App = () => {
           <Button
             onClick={toggleCardSize}
             icon={
-              <ViewGridIcon
-                style={{
-                  width: 25,
-                  color: 'var(--off-white)',
-                }}
-              />
-            }
-            selected={smallCardView}
-          />
-          <Button
-            onClick={toggleCardSize}
-            icon={
               <ViewListIcon
                 style={{
                   width: 25,
@@ -83,6 +71,18 @@ export var App = () => {
             }
             selected={!smallCardView}
             unClickedState
+          />
+          <Button
+            onClick={toggleCardSize}
+            icon={
+              <ViewGridIcon
+                style={{
+                  width: 25,
+                  color: 'var(--off-white)',
+                }}
+              />
+            }
+            selected={smallCardView}
           />
           <ClearCategoriesButton
             style={{
